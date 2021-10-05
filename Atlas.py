@@ -69,7 +69,7 @@ def run_atlas():
 		info = wikipedia.summary(person, 1)
 		talk(info)
 	elif 'what is the weather in' in command:
-		api_address='http://api.openweathermap.org/data/2.5/weather?appid=48e7991b9835bb0122d235b684632446&q='
+		api_address='http://api.openweathermap.org/data/2.5/weather?appid=#######='
 		command = command.replace('what is the weather in', '')
 		temp = '&units=imperial'
 		url = api_address + command + temp
